@@ -1,0 +1,5 @@
+---
+# tasks file for ntp
+- include_tasks: install.yml
+- include_tasks: config.yml
+- include_tasks: service.yml

@@ -1,0 +1,12 @@
+---
+- name: configure ntp_server
+  copy: 
+    src: files/ntp.conf
+    dest: /etc/ntp.conf
+
+- name: set timezone
+  command: timedatectl set-timezone Asia/Kolkata
+
+- name: sync with system clock
+  command:  sudo hwclock --systohc
+

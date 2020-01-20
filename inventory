@@ -1,0 +1,4 @@
+[master]
+hdp-master0.com ansible_user=admin
+
+
