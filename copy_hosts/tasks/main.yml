@@ -1,0 +1,3 @@
+---
+# tasks file for copy_hosts
+- include_tasks: copy_hosts.yml

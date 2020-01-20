@@ -1,0 +1,9 @@
+---
+- name: download the repo file from mysql-community official site
+  command: wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+
+- name: install the rpm 
+  command: sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+
+- name: update packages
+  command: sudo  yum update -y

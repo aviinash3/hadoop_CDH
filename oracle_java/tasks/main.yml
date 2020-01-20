@@ -1,0 +1,4 @@
+---
+# tasks file for oracle_java
+- include_tasks: install.yml
+- include_tasks: set_path.yml

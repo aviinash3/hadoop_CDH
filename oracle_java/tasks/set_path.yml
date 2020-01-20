@@ -1,0 +1,10 @@
+---
+- name: set java path
+  blockinfile:
+    path: /home/admin/.bashrc
+    block: |
+      #java_home
+      export JAVA_HOME=/usr/java/jdk1.8.0_181-cloudera/
+      export JRE_HOME=/usr/java/jdk1.8.0_181-cloudera/jre
+      export PATH=$PATH:$JAVA_HOME/bin
+

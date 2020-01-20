@@ -1,0 +1,4 @@
+---
+# tasks file for mysql_jdbc
+
+- include_tasks: install.yml

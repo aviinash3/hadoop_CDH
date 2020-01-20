@@ -1,0 +1,5 @@
+---
+# tasks file for setup-repo
+
+- include_tasks: mysql_community_repo.yml
+- include_tasks: cloudera_repo.yml 

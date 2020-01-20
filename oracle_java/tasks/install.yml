@@ -1,0 +1,7 @@
+---
+- name: update packages
+  command: yum update -y 
+- name: install oracle java
+  yum:
+    name: oracle-j2sdk1.8
+    state: present

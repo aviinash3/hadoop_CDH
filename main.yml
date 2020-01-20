@@ -1,4 +1,11 @@
 ---
 - hosts: master
   roles:
+    - copy_hosts
+    - package
+    - selinux
     - ntp
+    - mysql_jdbc
+    - setup-repo
+    - oracle_java
+

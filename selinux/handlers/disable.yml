@@ -1,0 +1,10 @@
+---
+- name: disable selinux
+  selinux:
+    state: disabled
+- name: stop firwall and disable
+  service:
+    name: firewalld
+    state: stopped
+    enabled: false
+

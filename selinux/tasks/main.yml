@@ -1,0 +1,4 @@
+---
+# to asks file for selinux
+#
+ - include_tasks: disable_selinux.yml 
