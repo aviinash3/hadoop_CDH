@@ -1,1 +1,1 @@
-# hadoop_CDH
+# hadoop_CDH prerequisites
